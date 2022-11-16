@@ -7,7 +7,7 @@ This repository contains example code showing how to utilize the NPM package to 
 1. Install with `yarn` or `npm install`. (Note: npm v7 and later may require `--legacy-peer-deps`)
 1. Run `yarn dev` or `npm run dev` to see the default example in React.
 
-You can also run any of the following commands to see the respective frameworks in action. Make sure to replace the `YOUR_SDK_KEY` placeholder with your SDK key ([how to obtain an SDK key](https://matterport.github.io/showcase-sdk/sdk_home.html#how-do-i-obtain-an-sdk-key)):
+You can also run any of the following commands to see the respective frameworks in action. Make sure to replace the `YOUR_SDK_KEY` placeholder in the relevant package with your SDK key ([how to obtain an SDK key](https://matterport.github.io/showcase-sdk/sdk_home.html#how-do-i-obtain-an-sdk-key)):
 
 ```sh
 # Brunch commonjs
