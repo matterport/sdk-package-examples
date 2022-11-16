@@ -1,0 +1,20 @@
+{
+  "name": "brunch-coffee",
+  "description": "Demonstrate use of npm package from brunch via coffeescript",
+  "version": "0.0.0",
+  "repository": "",
+  "scripts": {
+    "dev": "brunch watch --server",
+    "build": "brunch build --production"
+  },
+  "dependencies": {
+    "@matterport/sdk": "^1.3.38"
+  },
+  "devDependencies": {
+    "auto-reload-brunch": "^3",
+    "brunch": "^4",
+    "clean-css-brunch": "^3",
+    "coffee-script-brunch": "^4",
+    "uglify-js-brunch": "^2.10"
+  }
+}

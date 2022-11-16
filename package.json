@@ -1,0 +1,18 @@
+{
+  "name": "sdk_package_examples",
+  "version": "1.0.0",
+  "description": "starter projects that use the matterport sdk via npm",
+  "main": "index.js",
+  "scripts": {
+    "dev": "yarn workspace react dev"
+  },
+  "repository": "git@ghe.matterport.com:matterport/sdk_package_examples.git",
+  "author": "Daniel Taub <dtaub@matterport.com>",
+  "private": true,
+  "workspaces": {
+    "packages": ["packages/*"],
+    "nohoist": [
+      "**/brunch-coffee/**"
+    ]
+  }
+}

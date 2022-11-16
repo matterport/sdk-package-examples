@@ -1,0 +1,17 @@
+<html>
+<head><title>Test Vanilla SDK Package (ESM)</title></head>
+<body>
+<h1> Built with Vanilla.js ESM! </h1>
+<script type="importmap">
+  { "imports": { "@matterport/sdk": "./mp-sdk.js" } }
+</script>
+<script type="module">
+  import * as sdk from '@matterport/sdk'; // error: "Automatic publicPath is not supported in this browser"
+  // import { setupSdk } from '@matterport/sdk'; // should also work, but errors with: "does not provide an export named 'setupSdk'"
+  await sdk.setupSdk('YOUR_SDK_KEY', {
+    space: 'j4RZx7ZGM6T',
+    iframeQueryParams: {'qs': 1}
+  });
+</script>
+</body>
+</html>
