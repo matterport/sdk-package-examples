@@ -8,7 +8,7 @@
     "build": "brunch build --production"
   },
   "dependencies": {
-    "@matterport/sdk": "^1.3.38"
+    "@matterport/sdk": "^1.4.5"
   },
   "devDependencies": {
     "auto-reload-brunch": "^3",

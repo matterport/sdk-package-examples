@@ -4,7 +4,7 @@
   "description": "Demonstrate use of package from vanilla javascript and html",
   "author": "dtaub@matterport.com",
   "dependencies": {
-    "@matterport/sdk": "^1.3.38"
+    "@matterport/sdk": "^1.4.5"
   },
   "scripts": {
     "start": "node index.js",

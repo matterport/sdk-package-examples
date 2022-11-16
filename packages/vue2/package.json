@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@matterport/sdk": "^1.3.38",
+    "@matterport/sdk": "^1.4.5",
     "vue": "2"
   },
   "devDependencies": {
