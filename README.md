@@ -39,6 +39,6 @@ npm -w vue3 run dev
 
 These starters are meant to work outside of this monorepo as well. Simply copy the folder containing the code you wish to start from, and you should be able to do `yarn install` or `npm install` and then `yarn dev` or `npm run dev` to start developing!
 
-## Note
+## License
 
-The example code in this repository is released under the MIT license. For the license for the Showcase SDK, please see [these terms](https://matterport.com/legal/platform-subscription-agreement).
+The example code in this repository is released under the MIT license. For the license for the Showcase SDK itself, please see [these terms](https://matterport.com/legal/platform-subscription-agreement).
